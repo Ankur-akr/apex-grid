@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0c0f"/><stop offset="1" stop-color="#260807"/></linearGradient>
+ <linearGradient id="red" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#e10600"/><stop offset="1" stop-color="#ff4b43"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<g opacity=".18" stroke="#fff"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200"/><path d="M100 0L0 700M300 0L200 700M500 0L400 700M700 0L600 700M900 0L800 700M1100 0L1000 700"/></g>
+<path d="M70 520 C170 170 410 130 545 350 C675 565 940 535 1130 165" fill="none" stroke="#353940" stroke-width="72" stroke-linecap="round"/>
+<path d="M70 520 C170 170 410 130 545 350 C675 565 940 535 1130 165" fill="none" stroke="#dfe2e5" stroke-width="3" stroke-dasharray="12 18" opacity=".6"/>
+<path d="M120 510 C250 225 410 210 525 350 C650 500 875 520 1090 195" fill="none" stroke="url(#red)" stroke-width="5" filter="url(#glow)"/>
+<g transform="translate(520 320) rotate(18)">
+ <path d="M-130 10 L-80 -22 L45 -22 L120 2 L78 26 L-75 26 Z" fill="#d9dadd"/>
+ <path d="M-75 -7 L50 -7 L75 8 L-70 8 Z" fill="#16181d"/>
+ <path d="M-105 15 L-130 35 L-45 32 L-20 18 ZM85 15 L125 30 L52 32 L38 18Z" fill="#e10600"/>
+ <circle cx="-75" cy="27" r="18" fill="#08090b" stroke="#aaa" stroke-width="4"/><circle cx="80" cy="27" r="18" fill="#08090b" stroke="#aaa" stroke-width="4"/>
+ <rect x="-42" y="-34" width="62" height="9" rx="4" fill="#111318"/>
+</g>
+<text x="70" y="90" fill="#fff" font-family="Arial" font-weight="700" font-size="20" letter-spacing="5">APEX GRID / RACE INTELLIGENCE</text>
+<text x="70" y="625" fill="#fff" font-family="Arial" font-weight="700" font-size="58">PREDICT THE GRID.</text>
+<text x="70" y="680" fill="#e10600" font-family="Arial" font-weight="700" font-size="58">UNDERSTAND THE RACE.</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+<rect width="1000" height="500" rx="20" fill="#101216"/>
+<g font-family="Arial" text-anchor="middle">
+<text x="500" y="60" fill="#fff" font-size="32" font-weight="700">F1 WEEKEND</text>
+<g transform="translate(100 180)"><circle cx="0" cy="0" r="62" fill="#1c2027" stroke="#e10600" stroke-width="3"/><text y="-7" fill="#e10600" font-size="16">01</text><text y="18" fill="#fff" font-size="18" font-weight="700">PRACTICE</text></g>
+<g transform="translate(500 180)"><circle cx="0" cy="0" r="62" fill="#1c2027" stroke="#e10600" stroke-width="3"/><text y="-7" fill="#e10600" font-size="16">02</text><text y="18" fill="#fff" font-size="18" font-weight="700">QUALIFYING</text></g>
+<g transform="translate(900 180)"><circle cx="0" cy="0" r="62" fill="#1c2027" stroke="#e10600" stroke-width="3"/><text y="-7" fill="#e10600" font-size="16">03</text><text y="18" fill="#fff" font-size="18" font-weight="700">GRAND PRIX</text></g>
+<path d="M165 180H435M565 180H835" stroke="#e10600" stroke-width="4" stroke-dasharray="8 10"/>
+<text x="500" y="340" fill="#9297a0" font-size="18">Practice → learn the circuit</text><text x="500" y="375" fill="#9297a0" font-size="18">Qualifying → set the starting order</text><text x="500" y="410" fill="#9297a0" font-size="18">Race → score championship points</text>
+</g></svg>
